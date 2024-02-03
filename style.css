@@ -1,9 +1,30 @@
-h2 {
-  color: white;
+header {
   background-color: black;
-  display: block;
-  background-size: 15%;
+  color: white;
 }
+
+.logo,
+nav,
+li {
+  display: inline-block;
+}
+
+#hero {
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.photo {
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+}
+
 img {
   display: inline-block;
   width: 1330px;
@@ -56,22 +77,31 @@ img {
   position: relative;
   color: white;
 }
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.photo {
-  margin-bottom: 200px;
-  margin-left: 100px;
-  width: auto;
-  height: auto;
-  border-radius: 50%;
-}
+
 h3 {
   color: white;
 }
 .Landing {
+  color: white;
+}
+
+div {
+  display: flex;
+}
+h2 {
+  width: 50%;
+}
+.contact {
+  text-align: end;
+}
+.about {
+  text-align: end;
+}
+.home {
+  text-align: end;
+}
+
+footer {
+  background-color: #212529;
   color: white;
 }
